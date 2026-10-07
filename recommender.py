@@ -1,3 +1,4 @@
+from config import DATASET_PATH
 
 import re
 import numpy as np
@@ -10,7 +11,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # DATASET
 # ============================================================
 
-DATASET_PATH = "vibetune_emotion_dataset.parquet"
+
 
 RECOMMENDATION_COLUMNS = [
     "ISRC",
