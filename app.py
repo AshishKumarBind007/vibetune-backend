@@ -16,6 +16,8 @@ from pydantic import (
     Field
 )
 
+from config import DATASET_PATH
+
 from recommender import (
     load_recommendation_data,
     build_engine,
@@ -26,9 +28,6 @@ from recommender import (
 )
 
 
-DATASET_PATH = (
-    "vibetune_emotion_dataset.parquet"
-)
 
 
 # ============================================================
